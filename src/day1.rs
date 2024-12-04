@@ -69,6 +69,7 @@ fn part2(left: &Vec<i32>, right: &Vec<i32>) -> Result<()> {
 }
 
 pub fn solution() {
+    println!("Day 1");
     let data = get_data().unwrap();
 
     let _ = part1(&data.left, &data.right);
